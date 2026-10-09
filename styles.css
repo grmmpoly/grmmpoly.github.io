@@ -740,3 +740,12 @@ footer {
     animation-iteration-count: 1 !important;
   }
 }
+
+.section-title {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  padding: 40px 20px;
+}
