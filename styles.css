@@ -810,3 +810,16 @@ footer {
 .publication-card .member-details a:hover {
   text-decoration: underline;
 }
+
+/* Barra de menu com o mesmo fundo do rodapé */
+header {
+  background: var(--bg-light);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Cor e negrito dos itens do menu */
+header nav a {
+  color: var(--text);
+  font-weight: 700;
+}
