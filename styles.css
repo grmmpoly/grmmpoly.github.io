@@ -742,10 +742,71 @@ footer {
 }
 
 .section-title {
-  font-family: "Fira Sans", sans-serif;
-  font-size: 2rem;
-  font-weight: 600;
+  font: var(--h2);
+  color: var(--text);
+  width: min(90%, 1080px);
+  margin: 0 auto;
+  padding: var(--spacing5) var(--spacing4);
   text-align: center;
-  margin: 0;
-  padding: 40px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Publicações: formato de lista */
+.member-section.publication-card {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--border-muted);
+  border-radius: 0;
+  padding: 24px 0;
+  margin: 0 auto;
+}
+
+/* Desativa o movimento ao passar o mouse */
+.member-section.publication-card:hover {
+  transform: none;
+  border-color: var(--border-muted);
+}
+
+/* Texto alinhado à esquerda */
+.publication-card .member-details {
+  text-align: left;
+  text-wrap: pretty;
+  line-height: 1.6;
+}
+
+/* Ano e título do artigo */
+.publication-card .member-details p:first-child {
+  font-size: 1.1rem;
+}
+
+/* Autores: substitui o cinza definido no HTML */
+.publication-card .member-details p:nth-child(2) {
+  color: var(--text-muted) !important;
+  font-size: 0.9rem;
+}
+
+/* Nome da revista */
+.publication-card .member-details p:nth-child(3) {
+  font-size: 0.95rem;
+}
+
+/* Link do DOI */
+.publication-card .member-details a {
+  color: var(--primary);
+  font-size: 0.85rem;
+  overflow-wrap: anywhere;
+}
+
+.publication-card .member-details a:hover {
+  text-decoration: underline;
 }
