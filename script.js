@@ -661,7 +661,7 @@ class TFooter extends HTMLElement {
 
             <p>
               © 2026 Geomechanics & Rock Mass Modeling
-              Research Group (GRMM).
+              Research Group (GRM²).
               All rights reserved.
             </p>
 
