@@ -1,4 +1,4 @@
-// Shared GRMM components
+// Shared GRM² components
 
 class THeader extends HTMLElement {
   connectedCallback() {
