@@ -26,11 +26,11 @@ class THeader extends HTMLElement {
 
     this.innerHTML = `
       <header>
-        <a class="brand" href="index.html" aria-label="GRMM home">
+        <a class="brand" href="index.html" aria-label="GRM² home">
           <img
             class="logo"
             src="img/grmm-logo.png"
-            alt="GRMM Research Group logo"
+            alt="GRM² Research Group logo"
           >
         </a>
 
