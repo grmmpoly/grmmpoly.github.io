@@ -984,3 +984,13 @@ body.light footer {
     gap: var(--spacing4);
   }
 }
+
+.welcome-title {
+  width: min(90%, 1080px);
+  margin: 32px auto 0;
+  font-family: "Source Sans 3", Arial, sans-serif;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: left;
+}
